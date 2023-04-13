@@ -1,0 +1,27 @@
+.bar {
+  background-color: #c4c4c4;
+  display: block;
+  height: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 45px;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+  width: 45px;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
