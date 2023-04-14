@@ -4,6 +4,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
+import Logo from "../../img/RBLfinal.png";
 
 const Header = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -21,6 +22,7 @@ const Header = () => {
 
   return (
     <header className="header">
+      <img className="logo" src={Logo} alt="logo" />
       <>
         {matches ? (
           <Hamburger

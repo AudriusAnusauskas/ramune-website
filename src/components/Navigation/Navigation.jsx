@@ -6,7 +6,7 @@ const Navigation = () => {
     <div className="navigation">
       <div className="navitem">
         <a className="link" href="/">
-          Apie mane
+          Apie
         </a>
       </div>
       <div className="navitem">
@@ -19,6 +19,7 @@ const Navigation = () => {
           Recenzijos
         </a>
       </div>
+
       <div className="navitem">
         <a className="link" href="/">
           Kontaktai

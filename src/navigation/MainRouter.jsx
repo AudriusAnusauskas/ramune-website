@@ -7,9 +7,9 @@ import { routes } from "./routes";
 const MainRouter = () => {
   return (
     <Routes>
-      <Route element={<MovieInfoContainer />} path={routes.Movie} />
+      <Route element={<MovieInfoContainer />} path={routes.Review} />
       <Route element={<MoviesListContainer />} path={routes.Index} />
-      <Route element={<MoviesListContainer />} path={routes.Movies} />
+      <Route element={<MoviesListContainer />} path={routes.Reviews} />
     </Routes>
   );
 };

@@ -1,9 +1,9 @@
-.footer{
+.footer {
   align-items: center;
-  background-color: var(--backgroundFooter);
+  /* background-color: red; */
   display: grid;
   grid-template-columns: auto;
   height: 50px;
   justify-content: center;
-  padding: 0 50px;
+  /* padding: 0 50px; */
 }

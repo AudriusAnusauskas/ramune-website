@@ -1,25 +1,12 @@
 .main {
-  background-color: #dadada;
-  display: flex;
-  flex-direction: row;
-  gap: 105px;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  gap: 60px;
 }
-
-.main > * {
-  flex-basis: 100%;
-}
-
-@media screen and (max-width: 1200px) {
-  .main {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 60px;
-  }
-  .main:last-child {
-    padding-bottom: 30px;
-  }
+.main:last-child {
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 640px) {

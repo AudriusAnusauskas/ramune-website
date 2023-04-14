@@ -1,19 +1,19 @@
 .header {
-  background-color: #2d2d2d;
-  color: #fff;
-  height: 60px;
+  background-color: #fff;
+  height: 160px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: sticky;
+  justify-content: space-around;
+  /* position: sticky; */
   top: 0;
   z-index: 100;
-  margin-bottom: 45px;
+}
+.logo {
+  height: 100px;
 }
 
 @media screen and (max-width: 640px) {
   .header {
     justify-content: flex-end;
-    padding-right: 13px;
   }
 }

@@ -1,0 +1,108 @@
+.a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.a-right {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #74777f;
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.a-title {
+  font-weight: 400;
+}
+.a-sub {
+  margin: 20px 0;
+}
+.a-desc {
+  font-weight: 300;
+}
+.a-desc a {
+  text-decoration: none;
+  color: teal;
+}
+
+.a-desc a:hover {
+  text-decoration: none;
+  color: #74777f;
+}
+
+@media screen and (max-width: 950px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    margin-top: 50px;
+  }
+  .a-card.bg {
+    top: 15px;
+  }
+  .a-desc {
+    width: 100%;
+    align-items: center;
+  }
+  .a-card {
+    width: 100%;
+    /* height: 40vh; */
+  }
+  .a-right {
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .a {
+    margin-top: -200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .a {
+    margin-top: -400px;
+  }
+  .a-left {
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+  }
+
+  .a-card {
+    width: 80%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .a-left {
+    position: relative;
+    margin-top: 130px;
+  }
+}

@@ -1,5 +1,5 @@
 .bar {
-  background-color: #c4c4c4;
+  background-color: #41484d;
   display: block;
   height: 5px;
   margin: 5px auto;
@@ -12,6 +12,7 @@
   cursor: pointer;
   display: block;
   width: 45px;
+  margin-right: 20px;
 }
 
 .hamburger.active .bar:nth-child(2) {
