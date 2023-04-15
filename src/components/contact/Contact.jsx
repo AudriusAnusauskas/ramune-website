@@ -54,7 +54,7 @@ export const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            Jei turite klausimų ar pasiūlymų, užpildykite prašau formą žemiau:
+            Jei turite klausimų ar pasiūlymų, užpildykite formą žemiau:
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Vardas" name="user_name" />
